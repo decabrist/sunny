@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <title>Ruby on Rails Tutorial Sample App | Help</title>
-  </head>
+<% provide(:title, 'Home')%>
 
-  <body>
   <h1>Sunny</h1>
   <p>Find me in app/views/static_pages/home.html.erb
       <a href = "http://idinaidi.ru/">Best site ever!</a>
-      <h2>sanny application by smile<h2>
+      <h2>sanny application by smile page <%= yield(:title)%><h2>
 
   </p>
-  </body>
-</html>

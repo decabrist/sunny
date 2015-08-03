@@ -1,18 +1,11 @@
-<html>
-  <head>
-    <title> Ruby on Rails Tutorial Sample App | Help </title>
-
-  <head/>
-  <body>
-    <h1>Sunny app</h1>
-    <p>To het help with Ruby go to Idinaidi
-    <a href="http://idinaidi.ru"> Idinaidi </a> 
+<%provide(:title, 'Help')%>
+  <h1>Help</h1>
+    <p>To het help with Ruby go to Idinaidi <%= yield(:title)%>
+      <a href="http://idinaidi.ru"> Idinaidi svoi dom</a> 
     <p/>
     <p>
       To get help with your brain just sleep more
       <a href="http://idinaidi.ru"> Sleepmore </a> 
-      <p/>
-  <body/>
+    <p/>
 
-<html/>
 
